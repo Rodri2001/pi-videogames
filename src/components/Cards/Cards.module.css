@@ -1,0 +1,36 @@
+.paginateButtons {
+    display: flex;
+    flex-direction: row;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    border: solid;
+    border-radius: 50px;
+    background-color: rgb(149, 23, 171);
+    border-color: black;
+    cursor: pointer
+}

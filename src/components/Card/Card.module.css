@@ -1,0 +1,17 @@
+#Card{
+    display: flex;
+    background-color: rgba(213, 202, 202, 0.34);
+    border-width: 0.5px;
+    border-style: solid;
+    max-width: 400px;
+    width: 30%;
+    margin-bottom: 20px;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+}
+
+#img{
+    display: flex;
+    justify-content: space-between;
+    width: 12vw;
+}

@@ -6,11 +6,13 @@ import { useHistory } from "react-router-dom"
 
 function Landing() {
     let history = useHistory()
-
     return (
-
-        <button id={styles.Butonplay} onClick={() => { history.push('/home') }}>Play</button>
-
+        <div className={styles.background}>
+                <button id={styles.buttonPlay} onClick={() => {
+                    console.log("click")
+                    history.push('/home')
+                }}>PLAY</button>
+        </div>
     )
 }
 
